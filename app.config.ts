@@ -24,9 +24,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: Env.NAME,
   description: `${Env.NAME} Mobile App`,
-  owner: Env.EXPO_ACCOUNT_OWNER,
+  owner: 'hamza1992',
   scheme: Env.SCHEME,
-  slug: 'obytesapp',
+  slug: 'historyapp',
   version: Env.VERSION.toString(),
   orientation: 'portrait',
   icon: './assets/icon.png',
@@ -80,7 +80,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   extra: {
     ...ClientEnv,
     eas: {
-      projectId: Env.EAS_PROJECT_ID,
+      projectId: '29ccae18-8b52-4ac1-b396-dce82b6913cf',
     },
   },
 });
